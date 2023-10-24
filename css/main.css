@@ -98,5 +98,49 @@ ul {
 }
 
 
+/* SITE-HEADER-HERO */
+.site-header-hero {
+  background-color: var(--Dark-Purple);
+  height: 100vh;
+  padding-top: 56px;
+}
+
+.site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo:hover {
+  opacity: .8;
+}
+
+.logo:active {
+  opacity: .6;
+}
+.logo-image {
+  width: 96px;
+  height: 24px;
+  object-fit: cover;
+}
+.site-header__underline {
+  display: block;
+  color: var(--White);
+  font-family: var(--Manrope);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  border-bottom: 3px solid var(--Eucaplyptus);
+  transition: .5s;
+}
+
+.site-header__underline:active {
+  color: var(--Eucaplyptus);
+}
+
+/* SITE-HEADER-HERO */
+
+
 
 
