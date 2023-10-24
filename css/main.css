@@ -19,7 +19,17 @@
 }
 
 
+/* GLOBAL PROPS */
 
+:root {
+  --Dark-Purple: #24053E;
+  --Eucaplyptus: #44FFA1;
+  --Davys-Grey: #584D62;
+  --Ghost-White: #FCF8FF;
+  --White: #fff;
+  --Fraunces: "Fraunces 144pt";
+  --Manrope: "Manrope";
+}
 
 
 /* GLOBAL */
