@@ -75,6 +75,28 @@ ul {
   margin-right: auto;
 }
 
+.all-btn {
+  max-width: 190px;
+  width: 100%;
+  padding-top: 11px;
+  padding-bottom: 14px;
+  background-color: var(--Eucaplyptus);
+  color: var(--Dark-Purple);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  font-family: var(--Manrope);
+  border: 2px solid var(--Eucaplyptus, #44FFA1);
+  transition: .5s;
+}
+
+.all-btn:active {
+  background-color: var(--Dark-Purple);
+  color: var(--Eucaplyptus);
+}
+
 
 
 
