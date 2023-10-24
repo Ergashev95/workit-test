@@ -99,9 +99,10 @@ ul {
 
 
 /* SITE-HEADER-HERO */
+/* site-header */
 .site-header-hero {
   background-color: var(--Dark-Purple);
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 56px;
 }
 
@@ -138,6 +139,27 @@ ul {
 .site-header__underline:active {
   color: var(--Eucaplyptus);
 }
+/* site-header */
+
+/* site-hero */
+.site-hero {
+  padding-top: 63px;
+}
+.container {
+}
+.site-hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 38px;
+}
+.site-hero__title {
+}
+.site-hero__underline {
+}
+.site-button {
+}
+/* site-hero */
 
 /* SITE-HEADER-HERO */
 
