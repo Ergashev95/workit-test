@@ -102,7 +102,6 @@ ul {
 /* site-header */
 .site-header-hero {
   background-color: var(--Dark-Purple);
-  /* height: 100vh; */
   padding-top: 56px;
 }
 
@@ -145,8 +144,7 @@ ul {
 .site-hero {
   padding-top: 63px;
 }
-.container {
-}
+
 .site-hero__container {
   display: flex;
   flex-direction: column;
@@ -154,10 +152,27 @@ ul {
   row-gap: 38px;
 }
 .site-hero__title {
+  width: 100%;
+  max-width: 635px;
+  color: var(--White);
+  font-family: var(--Fraunces);
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: center;
 }
 .site-hero__underline {
+  display: inline-block;
+  border-bottom: 3px solid var(--Eucaplyptus);
 }
 .site-button {
+  max-width: 161px;
+}
+
+.site-hero__image {
+  max-width: 715px;
+  width: 100%;
+  height: 427px;
 }
 /* site-hero */
 
