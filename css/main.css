@@ -266,6 +266,16 @@ ul {
     flex-direction: column;
     row-gap: 32px;
     z-index: 2;
+    position: relative;
+  }
+  .tester-desc::after {
+    content: url(../img/circels.svg);
+    display: inline-block;
+    position: absolute;
+    width: 173px;
+    height: 137px;
+    right: 80px;
+    bottom: 0;
   }
   .tester-desc__title {
     color: var(--White);
