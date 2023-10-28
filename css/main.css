@@ -298,5 +298,36 @@ ul {
 /* MAIN-CONTENT */
 
 
+/* SITE-FOOTER */
+.site-footer {
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+
+.site-footer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 60px;
+}
+.site-footer__logo {
+  display: block;
+}
+
+
+.social-list {
+  display: flex;
+  column-gap: 28px;
+}
+.social-link {
+  color: var(--Davys-Grey);
+  transition: .5s;
+}
+.social-link:hover {
+  color: var(--Dark-Purple);
+}
+/* SITE-FOOTER */
+
+
 
 
