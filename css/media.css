@@ -1,0 +1,139 @@
+@media only screen and (max-width: 768px) {
+  .site-header-hero {
+    padding-top: 32px;
+  }
+  .site-hero__title {
+    max-width: 465px;
+    width: 100%;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 40px;
+  }
+  .features {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  .features-list {
+    flex-direction: column;
+    row-gap: 48px;
+  }
+  .features-item {
+    flex-direction: row;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: flex-start;
+    column-gap: 32px;
+    align-items: center;
+    margin: auto;
+  }
+  .features-inner {
+    max-width: 493px;
+    width: 100%;
+    text-align: start;
+    justify-content: flex-start;
+    row-gap: 16px;
+  }
+  .features-title {
+    text-align: start;
+    font-size: 28px;
+    max-width: 100%;
+  }
+  .features-desc {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  /* tester */
+  .tester {
+    padding-top: 251px;
+    padding-bottom: 30px;
+  }
+
+  .tester-desc {
+    max-width: 514px;
+    width: 100%;
+    height: 375px;
+    row-gap: 24px;
+    padding: 48px 56px 56px;
+  }
+  .tester-desc__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .tester-desc__text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .tester-desc__btn {
+    font-size: 16px;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+  }
+  .tester-image {
+    width: 265px;
+    height: 267px;
+    right: calc(100% - 90px);
+    bottom: 109px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .site-hero__title {
+    font-size: 50px;
+    max-width: 80%;
+  }
+
+  .features {
+    padding-top: 155px;
+    padding-bottom: 71px;
+  }
+  .features-list {
+    flex-direction: column;
+    row-gap: 48px;
+  }
+  .features-item {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+  }
+  .features-inner {
+    text-align: center;
+    justify-content: center;
+  }
+  .features-title {
+    text-align: center;
+  }
+  .features-desc {
+    max-width: 343px;
+    width: 100%;
+    margin: auto;
+  }
+
+  /*  .tester */
+
+  .tester {
+    padding-top: 300px;
+    padding-bottom: 37px;
+  }
+
+
+  .tester-inner {
+    flex-direction: column;
+    
+  }
+  .tester-picture {
+    position: relative;
+  }
+  .tester-image {
+    position: unset;
+    display: block;
+    width: 265px;
+    height: 267px;
+    text-align: center;
+  }
+}

@@ -36,19 +36,14 @@
           <a href="#!" class="site-button all-btn">Learn more</a>
 
           <picture class="site-hero__picture">
-            <source
-              media="(max-width:992px)"
-              srcset="img/image-hero-tablet@2x.png"
-            />
-            <source
-              media="(max-width:768px)"
-              srcset="img/image-hero-mobile@2x.png"
-            />
+            <source srcset="img/image-hero-tablet@1x.png 1,img/image-hero-tablet@2x.png 2" media="max-width: 992px">
+            <source srcset="img/image-hero-mobile@1x.png 1,img/image-hero-mobile@2x.png 2" media="max-width: 768px">
+           
             <img
               src="./img/image-hero.png"
               class="site-hero__image"
               alt="Site hero phone image "
-              srcset="img/image-hero.png 1x, img/image-hero@2x.png 2x"
+              srcset="img/image-hero.png 1, img/image-hero@2x.png 2"
               width="715"
               height="427"
             />
@@ -96,7 +91,8 @@
             <div class="container">
                 <div class="tester-inner">
                     <picture class="tester-picture">
-                        <source srcset="img/image-founder@1x.png 1,img/image-founder@1x.png 2">
+                    
+                        <source srcset="img/image-founder@1x.png 1,img/image-founder@1x.png 2" >
                         <img src="./img/image-founder.webp" alt="Tester person image " class="tester-image" srcset="img/image-founder@1x.png 1,img/image-founder@1x.png 2" width="450px" height="453px">
                     </picture>
 
@@ -123,7 +119,6 @@
           <a href="#!" class="site-footer__logo logo">
             <img src="./img/logo-dark.svg" alt="Site footer dark logo" class="logo-image">
           </a>
-
           <ul class="social-list">
             <li class="social-item">
               <a href="#!" class="social-link" target="_blank">
